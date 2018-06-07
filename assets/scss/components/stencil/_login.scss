@@ -22,6 +22,17 @@
 
         margin-top: spacing("double");
     }
+
+    .form-actions { 
+        @include breakpoint("medium") {
+            text-align:  left;
+        }
+
+        .forgot-password {
+            margin-top: spacing("single")/2;
+        }
+        
+    }
 }
 
 .new-customer {
