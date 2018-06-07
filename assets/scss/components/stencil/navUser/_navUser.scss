@@ -33,6 +33,7 @@
         border: 1px solid stencilColor("navUser-dropdown-borderColor");
         box-shadow: container("dropShadow");
         position: absolute;
+        outline: none;
 
         // scss-lint:disable NestingDepth
         &.is-open {
